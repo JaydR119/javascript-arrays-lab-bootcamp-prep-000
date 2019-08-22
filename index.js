@@ -29,3 +29,8 @@ function prependKitten(name) {
   const newKittens = [name, ...kittens]
   return newKittens
 }
+
+function removeLastKitten() {
+  const newKittens = kittens.pop()
+  return newKittens
+}
